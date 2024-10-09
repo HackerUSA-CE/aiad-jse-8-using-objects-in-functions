@@ -161,7 +161,7 @@ node index.js
 
 Now, create an array of car objects and write functions to access, modify, and filter these cars.
 
-### 4.1: Define the Array of Cars
+#### 4.1: Define the Array of Cars
 - [ ] Start by defining an array of car objects with properties for `make`, `model`, and `year`.
 
 ```javascript
@@ -173,7 +173,7 @@ const cars = [
 ];
 ```
 
-### 4.2: Create Arrow Functions for Cars
+#### 4.2: Create Arrow Functions for Cars
 - [ ] Create an arrow function to log each car's details.
 
 ```javascript
@@ -200,7 +200,7 @@ Make: Tesla, Model: Model 3, Year: 2020
 
 ---
 
-### 4.3: Modify Car Properties
+#### 4.3: Modify Car Properties
 - [ ] Write an arrow function to update a car's model and year based on its `make`.
 
 ```javascript
@@ -231,7 +231,7 @@ console.log(updatedCar);
 
 ---
 
-### 4.4: Filter Cars Based on Year
+#### 4.4: Filter Cars Based on Year
 - [ ] Write an arrow function to filter out cars older than a certain year.
 
 ```javascript
