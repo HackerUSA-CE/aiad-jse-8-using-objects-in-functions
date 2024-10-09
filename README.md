@@ -247,6 +247,11 @@ const filterCarsByYear = (carsArray, yearLimit) => carsArray.filter(car => car.y
 const filteredCars = filterCarsByYear(cars, 2010);
 console.log(filteredCars);
 ```
+- [ ] Run your code using Node.js in the terminal:
+
+```bash
+node index.js
+```
 
 ### Expected Output:
 
