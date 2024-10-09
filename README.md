@@ -185,6 +185,11 @@ cars.forEach(car => {
     console.log(logCarDetails(car));
 });
 ```
+- [ ] Run your code using Node.js in the terminal:
+
+```bash
+node index.js
+```
 
 ### Expected Output:
 
@@ -218,6 +223,11 @@ const updateCar = (carArray, make, newModel, newYear) => {
 const updatedCar = updateCar(cars, 'Honda', 'Civic', 2022);
 console.log(updatedCar);
 ```
+- [ ] Run your code using Node.js in the terminal:
+
+```bash
+node index.js
+```
 
 ### Expected Output:
 
@@ -241,6 +251,11 @@ const filterCarsByYear = (carsArray, yearLimit) => carsArray.filter(car => car.y
 // Log the filtered array of cars newer than 2010
 const filteredCars = filterCarsByYear(cars, 2010);
 console.log(filteredCars);
+```
+- [ ] Run your code using Node.js in the terminal:
+
+```bash
+node index.js
 ```
 
 ### Expected Output:
