@@ -223,6 +223,11 @@ const updateCar = (carArray, make, newModel, newYear) => {
 const updatedCar = updateCar(cars, 'Honda', 'Civic', 2022);
 console.log(updatedCar);
 ```
+- [ ] Run your code using Node.js in the terminal:
+
+```bash
+node index.js
+```
 
 ### Expected Output:
 
