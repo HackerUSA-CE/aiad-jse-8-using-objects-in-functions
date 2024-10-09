@@ -34,7 +34,7 @@ Before starting the coding process, ensure your development environment is prepa
 
 ### 2. Create Arrow Functions to Access and Modify Objects
 
-#### Step 2.1: Define the Array of People
+#### 2.1: Define the Array of People
 
 You will begin by defining an array of people objects. Each person object should have properties for `firstName`, `lastName`, `age`, and `occupation`.
 
@@ -49,7 +49,7 @@ const people = [
 ];
 ```
 
-#### Step 2.2: Create an Arrow Function to Greet a Person
+#### 2.2: Create an Arrow Function to Greet a Person
 
 Next, create an arrow function that takes in a person object as an argument and returns a greeting using their first and last names.
 
@@ -60,7 +60,7 @@ Next, create an arrow function that takes in a person object as an argument and 
 const greetPerson = person => `Hello, ${person.firstName} ${person.lastName}!`;
 ```
 
-#### Step 2.3: Create an Arrow Function to Modify a Person's Properties
+#### 2.3: Create an Arrow Function to Modify a Person's Properties
 
 Now, write an arrow function that takes in a person object, a new occupation, and a new age, then modifies and returns the updated person.
 
@@ -75,7 +75,7 @@ const updatePerson = (person, newOccupation, newAge) => {
 };
 ```
 
-#### Step 2.4: Use `forEach` to Log Greetings with Arrow Functions
+#### 2.4: Use `forEach` to Log Greetings with Arrow Functions
 
 Use a `forEach` loop to iterate over the `people` array and log the greeting for each person by calling the `greetPerson` arrow function.
 
@@ -88,7 +88,7 @@ people.forEach(person => {
 });
 ```
 
-#### Step 2.5: Modify a Person and Log the Updated Object with Arrow Functions
+#### 2.5: Modify a Person and Log the Updated Object with Arrow Functions
 
 Finally, modify Bob's occupation and age by calling the `updatePerson` arrow function, then log the updated object.
 
@@ -122,7 +122,7 @@ Hello, Charlie Brown!
 
 ##
 
-## Step 3: Use Arrow Functions to Modify and Filter Objects
+## 3: Use Arrow Functions to Modify and Filter Objects
 Next, you will create an arrow function to remove people over a certain age from the array using loops and conditionals within a filter function.
 
 - [ ] Add the following code to your `index.js` file:
@@ -157,11 +157,11 @@ node index.js
 
 ---
 
-## Step 4: Use Arrow Functions for Cars
+## 4: Use Arrow Functions for Cars
 
 Now, create an array of car objects and write functions to access, modify, and filter these cars.
 
-### Step 4.1: Define the Array of Cars
+### 4.1: Define the Array of Cars
 - [ ] Start by defining an array of car objects with properties for `make`, `model`, and `year`.
 
 ```javascript
@@ -173,7 +173,7 @@ const cars = [
 ];
 ```
 
-### Step 4.2: Create Arrow Functions for Cars
+### 4.2: Create Arrow Functions for Cars
 - [ ] Create an arrow function to log each car's details.
 
 ```javascript
@@ -200,7 +200,7 @@ Make: Tesla, Model: Model 3, Year: 2020
 
 ---
 
-### Step 4.3: Modify Car Properties
+### 4.3: Modify Car Properties
 - [ ] Write an arrow function to update a car's model and year based on its `make`.
 
 ```javascript
@@ -231,7 +231,7 @@ console.log(updatedCar);
 
 ---
 
-### Step 4.4: Filter Cars Based on Year
+### 4.4: Filter Cars Based on Year
 - [ ] Write an arrow function to filter out cars older than a certain year.
 
 ```javascript
