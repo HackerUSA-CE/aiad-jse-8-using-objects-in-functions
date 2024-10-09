@@ -185,6 +185,11 @@ cars.forEach(car => {
     console.log(logCarDetails(car));
 });
 ```
+- [ ] Run your code using Node.js in the terminal:
+
+```bash
+node index.js
+```
 
 ### Expected Output:
 
