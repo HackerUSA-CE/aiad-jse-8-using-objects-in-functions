@@ -298,3 +298,6 @@ By practicing these concepts regularly, you will continue to enhance your profic
 💾 **Not something to copy and paste** 💾
 
 **Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aiad-jse-8-using-objects-in-functions/tree/solution) (link not shown).
+
+---
+© All rights reserved to ThriveDX
